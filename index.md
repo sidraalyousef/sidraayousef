@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/sidraalyousef/sidraayousef/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sidraalyousef/sidraayousef/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sidra AlYousef</title>
+</head>
+<body>
+	<header>
+		<h1>Sidra AlYousef</h1>
+		<nav>
+			<a href="#one">favorate foods</a>
+			<a href="#two">achievements</a>
+			<a href="#three">more about Sidra</a>
+		</nav>
+	</header>
+	<section id="one">
+		<h3>favorate foods</h3>
+		<ul>
+			<li>chicken naggets</li>
+			<li>pizza</li>
+			<li>donuts</li>
+		</ul>
+	</section>
+	<section id="two">
+		<h3>Achievements</h3>
+		progress in this course
+		<meter max="100" min="0" value="89"></meter>
+		<br>
+		progress in the specialization capstone 
+		<meter max="100" min="0" value="0"></meter>
+		<br>
+		progress in life goals
+		<meter max="100" min="0" value="12"></meter>
+	</section>
+	<section id="three">
+		<h3>More about me</h3>
+		<summary>my childhood</summary>
+		<details>i lived in Idlid throughout my childhood then i moved to Damascus when i was 8 years old</details>
+	</section>
+	<section>
+		<img src="http://intro-webdesign.com/images/HTML5_1Color_Black.png" alt="" width="50%">
+	</section>
+	<footer>
+		this was created by sidra alyousef &amp; colleen van lent<br>
+		to learn about web design, visit <a href="http://intro-webdesign.com/index.html#banner">web design for everyone</a>
+	</footer>
+</body>
+</html>
